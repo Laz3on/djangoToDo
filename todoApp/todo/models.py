@@ -8,4 +8,4 @@ class Todo(models.Model):
 	date = models.DateTimeField(default=timezone.now)
 
 	def __str__(self):
-	    return self.title  #</pre>
+	    return self.title#</pre>
